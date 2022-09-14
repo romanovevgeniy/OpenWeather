@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  OpenWeatherApp_Demo
-//
-//  Created by Евгений Романов on 14.09.2022.
-//
-
 import SwiftUI
 
 struct ContentView: View {
