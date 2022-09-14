@@ -11,9 +11,10 @@
 		6943521728D2231B0093EAD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6943521628D2231B0093EAD3 /* ContentView.swift */; };
 		6943521928D2231C0093EAD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6943521828D2231C0093EAD3 /* Assets.xcassets */; };
 		6943521C28D2231C0093EAD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6943521B28D2231C0093EAD3 /* Preview Assets.xcassets */; };
-		6943522628D2231C0093EAD3 /* OpenWeatherApp_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6943522528D2231C0093EAD3 /* OpenWeatherApp_DemoTests.swift */; };
-		6943523028D2231C0093EAD3 /* OpenWeatherApp_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6943522F28D2231C0093EAD3 /* OpenWeatherApp_DemoUITests.swift */; };
-		6943523228D2231C0093EAD3 /* OpenWeatherApp_DemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6943523128D2231C0093EAD3 /* OpenWeatherApp_DemoUITestsLaunchTests.swift */; };
+		69F5AECE28D26885008EE958 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F5AECD28D26885008EE958 /* WeatherManager.swift */; };
+		69F9381328D2543800420508 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F9381228D2543800420508 /* LocationManager.swift */; };
+		69F9381628D2573B00420508 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F9381528D2573B00420508 /* WelcomeView.swift */; };
+		69F9381828D2633900420508 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F9381728D2633900420508 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +41,11 @@
 		6943521828D2231C0093EAD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6943521B28D2231C0093EAD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6943522128D2231C0093EAD3 /* OpenWeatherApp_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenWeatherApp_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6943522528D2231C0093EAD3 /* OpenWeatherApp_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherApp_DemoTests.swift; sourceTree = "<group>"; };
 		6943522B28D2231C0093EAD3 /* OpenWeatherApp_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenWeatherApp_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6943522F28D2231C0093EAD3 /* OpenWeatherApp_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherApp_DemoUITests.swift; sourceTree = "<group>"; };
-		6943523128D2231C0093EAD3 /* OpenWeatherApp_DemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherApp_DemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		69F5AECD28D26885008EE958 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		69F9381228D2543800420508 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		69F9381528D2573B00420508 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		69F9381728D2633900420508 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				6943521328D2231B0093EAD3 /* OpenWeatherApp_Demo */,
-				6943522428D2231C0093EAD3 /* OpenWeatherApp_DemoTests */,
-				6943522E28D2231C0093EAD3 /* OpenWeatherApp_DemoUITests */,
 				6943521228D2231B0093EAD3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,8 +94,9 @@
 		6943521328D2231B0093EAD3 /* OpenWeatherApp_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				69F9381428D2568300420508 /* Views */,
+				69F9381128D253FF00420508 /* Managers */,
 				6943521428D2231B0093EAD3 /* OpenWeatherApp_DemoApp.swift */,
-				6943521628D2231B0093EAD3 /* ContentView.swift */,
 				6943521828D2231C0093EAD3 /* Assets.xcassets */,
 				6943521A28D2231C0093EAD3 /* Preview Content */,
 			);
@@ -110,21 +111,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		6943522428D2231C0093EAD3 /* OpenWeatherApp_DemoTests */ = {
+		69F9381128D253FF00420508 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				6943522528D2231C0093EAD3 /* OpenWeatherApp_DemoTests.swift */,
+				69F9381228D2543800420508 /* LocationManager.swift */,
+				69F5AECD28D26885008EE958 /* WeatherManager.swift */,
 			);
-			path = OpenWeatherApp_DemoTests;
+			path = Managers;
 			sourceTree = "<group>";
 		};
-		6943522E28D2231C0093EAD3 /* OpenWeatherApp_DemoUITests */ = {
+		69F9381428D2568300420508 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				6943522F28D2231C0093EAD3 /* OpenWeatherApp_DemoUITests.swift */,
-				6943523128D2231C0093EAD3 /* OpenWeatherApp_DemoUITestsLaunchTests.swift */,
+				6943521628D2231B0093EAD3 /* ContentView.swift */,
+				69F9381528D2573B00420508 /* WelcomeView.swift */,
+				69F9381728D2633900420508 /* LoadingView.swift */,
 			);
-			path = OpenWeatherApp_DemoUITests;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +260,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69F5AECE28D26885008EE958 /* WeatherManager.swift in Sources */,
 				6943521728D2231B0093EAD3 /* ContentView.swift in Sources */,
 				6943521528D2231B0093EAD3 /* OpenWeatherApp_DemoApp.swift in Sources */,
+				69F9381328D2543800420508 /* LocationManager.swift in Sources */,
+				69F9381828D2633900420508 /* LoadingView.swift in Sources */,
+				69F9381628D2573B00420508 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +273,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6943522628D2231C0093EAD3 /* OpenWeatherApp_DemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +280,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6943523228D2231C0093EAD3 /* OpenWeatherApp_DemoUITestsLaunchTests.swift in Sources */,
-				6943523028D2231C0093EAD3 /* OpenWeatherApp_DemoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,8 +427,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,8 +457,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
