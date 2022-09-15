@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "78765076-2989-48BE-AB6A-2A4F77FD1B05"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "856D7E41-E67C-4479-A045-4D416566794B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OpenWeatherApp_Demo/Managers/WeatherManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "getCurrentWeather(latitude:longitude:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "856D7E41-E67C-4479-A045-4D416566794B - 3ee331ede3dcba79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for OpenWeatherApp_Demo.WeatherManager.getCurrentWeather(latitude: Swift.Double, longitude: Swift.Double) async throws -&gt; OpenWeatherApp_Demo.ResponseBody"
+                  moduleName = "OpenWeatherApp_Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romanov/Documents/iOS-learning/OpenWeatherApp_Demo/OpenWeatherApp_Demo/Managers/WeatherManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "260">
+               </Location>
+               <Location
+                  uuid = "856D7E41-E67C-4479-A045-4D416566794B - 3ee331ede3dcba79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for OpenWeatherApp_Demo.WeatherManager.getCurrentWeather(latitude: Swift.Double, longitude: Swift.Double) async throws -&gt; OpenWeatherApp_Demo.ResponseBody"
+                  moduleName = "OpenWeatherApp_Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romanov/Documents/iOS-learning/OpenWeatherApp_Demo/OpenWeatherApp_Demo/Managers/WeatherManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "524">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CA95FBCE-247A-4340-8277-DA161BFD7D0C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OpenWeatherApp_Demo/Managers/WeatherManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "getCurrentWeather(latitude:longitude:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CA95FBCE-247A-4340-8277-DA161BFD7D0C - 318ded11c9067d86"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for OpenWeatherApp_Demo.WeatherManager.getCurrentWeather(latitude: Swift.Double, longitude: Swift.Double) async throws -&gt; OpenWeatherApp_Demo.ResponseBody"
+                  moduleName = "OpenWeatherApp_Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romanov/Documents/iOS-learning/OpenWeatherApp_Demo/OpenWeatherApp_Demo/Managers/WeatherManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "676">
+               </Location>
+               <Location
+                  uuid = "CA95FBCE-247A-4340-8277-DA161BFD7D0C - d3c070f622634271"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for OpenWeatherApp_Demo.WeatherManager.getCurrentWeather(latitude: Swift.Double, longitude: Swift.Double) async throws -&gt; OpenWeatherApp_Demo.ResponseBody"
+                  moduleName = "OpenWeatherApp_Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romanov/Documents/iOS-learning/OpenWeatherApp_Demo/OpenWeatherApp_Demo/Managers/WeatherManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "CA95FBCE-247A-4340-8277-DA161BFD7D0C - 3ee331ede3dcb998"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for OpenWeatherApp_Demo.WeatherManager.getCurrentWeather(latitude: Swift.Double, longitude: Swift.Double) async throws -&gt; OpenWeatherApp_Demo.ResponseBody"
+                  moduleName = "OpenWeatherApp_Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romanov/Documents/iOS-learning/OpenWeatherApp_Demo/OpenWeatherApp_Demo/Managers/WeatherManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "CA95FBCE-247A-4340-8277-DA161BFD7D0C - be49ee5ff0c85b99"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for OpenWeatherApp_Demo.WeatherManager.getCurrentWeather(latitude: Swift.Double, longitude: Swift.Double) async throws -&gt; OpenWeatherApp_Demo.ResponseBody"
+                  moduleName = "OpenWeatherApp_Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/romanov/Documents/iOS-learning/OpenWeatherApp_Demo/OpenWeatherApp_Demo/Managers/WeatherManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C8535AE8-F447-4F44-9831-2EEEA63B9C49"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OpenWeatherApp_Demo/Managers/WeatherManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "getCurrentWeather(latitude:longitude:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
