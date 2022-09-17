@@ -14,8 +14,8 @@
             filePath = "OpenWeatherApp_Demo/Managers/WeatherManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
             landmarkName = "getCurrentWeather(latitude:longitude:)"
             landmarkType = "7">
             <Locations>
@@ -62,8 +62,8 @@
             filePath = "OpenWeatherApp_Demo/Managers/WeatherManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
             landmarkName = "getCurrentWeather(latitude:longitude:)"
             landmarkType = "7">
             <Locations>
@@ -140,8 +140,8 @@
             filePath = "OpenWeatherApp_Demo/Managers/WeatherManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
             landmarkName = "getCurrentWeather(latitude:longitude:)"
             landmarkType = "7">
          </BreakpointContent>

@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": 47.3194,
+        "lat": 39.6813
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 25.15,
+        "feels_like": 24.82,
+        "temp_min": 25.15,
+        "temp_max": 25.15,
+        "pressure": 1011,
+        "humidity": 42,
+        "sea_level": 1011,
+        "grnd_level": 985
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 1.24,
+        "deg": 341,
+        "gust": 1.6
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1663447578,
+    "sys": {
+        "country": "AZ",
+        "sunrise": 1663468458,
+        "sunset": 1663512950
+    },
+    "timezone": 14400,
+    "id": 148107,
+    "name": "Fizuli Rayon",
+    "cod": 200
+}

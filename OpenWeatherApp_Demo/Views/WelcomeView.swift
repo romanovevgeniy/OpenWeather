@@ -1,10 +1,3 @@
-//
-//  WelcomeView.swift
-//  OpenWeatherApp_Demo
-//
-//  Created by Евгений Романов on 14.09.2022.
-//
-
 import SwiftUI
 import CoreLocationUI
 
