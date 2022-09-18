@@ -1,44 +1,44 @@
 {
     "coord": {
-        "lon": 47.3194,
-        "lat": 39.6813
+        "lon": 39.7,
+        "lat": 47.2333
     },
     "weather": [
         {
             "id": 800,
             "main": "Clear",
             "description": "clear sky",
-            "icon": "01n"
+            "icon": "01d"
         }
     ],
     "base": "stations",
     "main": {
-        "temp": 25.15,
-        "feels_like": 24.82,
-        "temp_min": 25.15,
-        "temp_max": 25.15,
-        "pressure": 1011,
-        "humidity": 42,
-        "sea_level": 1011,
-        "grnd_level": 985
+        "temp": 26.27,
+        "feels_like": 26.27,
+        "temp_min": 26.27,
+        "temp_max": 30.14,
+        "pressure": 1004,
+        "humidity": 37
     },
     "visibility": 10000,
     "wind": {
-        "speed": 1.24,
-        "deg": 341,
-        "gust": 1.6
+        "speed": 4.47,
+        "deg": 180,
+        "gust": 0
     },
     "clouds": {
-        "all": 0
+        "all": 6
     },
-    "dt": 1663447578,
+    "dt": 1663489461,
     "sys": {
-        "country": "AZ",
-        "sunrise": 1663468458,
-        "sunset": 1663512950
+        "type": 2,
+        "id": 2000995,
+        "country": "RU",
+        "sunrise": 1663470136,
+        "sunset": 1663514928
     },
-    "timezone": 14400,
-    "id": 148107,
-    "name": "Fizuli Rayon",
+    "timezone": 10800,
+    "id": 501175,
+    "name": "Rostov-on-Don",
     "cod": 200
 }
